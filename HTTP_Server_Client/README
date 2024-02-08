@@ -1,0 +1,32 @@
+Project Name: Simple HTTP Server and Client in C++
+
+Description: This project is a minimalist implementation of a web server and client using C++. 
+It's designed to offer a hands-on learning experience for those interested in understanding the fundamentals of HTTP communication, 
+socket programming, and basic web security measures. The server is capable of handling GET requests, serving files, and responding 
+with appropriate HTTP status codes, while the client can send GET requests to both the custom server and real-world web servers.
+
+Features:
+
+Simple HTTP Server: Listens on port 8888, handles HTTP GET requests, serves files from the server's file system, and includes basic 
+security measures against unauthorized access and directory traversal attacks.
+Web Client (Retriever): Sends HTTP GET requests to specified URLs, processes responses, and supports fetching files from both the 
+local server and external web servers.
+Security Measures: Includes checks for file authorization, path validation to prevent directory traversal, and proper handling of malformed HTTP requests.
+Educational Tool: Serves as an excellent resource for learning about network programming, the HTTP protocol, and the basics of web server security.
+Technologies Used:
+C++
+Socket Programming
+HTTP Protocol
+GNU Compiler Collection (g++) for compilation
+Getting Started:
+
+Compilation: Use the provided build.sh script to compile the server and client programs.
+Running the Server: Execute execute.sh to start the server and follow the prompts to interact with it using the client and your web browser.
+Client Usage: The client (retriever) can be used independently by passing a URL as an argument to request files from the server or any external server.
+Usage Scenarios:
+
+Real web browser accessing the server
+Retrieving files from a real server
+Accessing server files, including handling of unauthorized and forbidden files
+Sending malformed requests to the server
+
